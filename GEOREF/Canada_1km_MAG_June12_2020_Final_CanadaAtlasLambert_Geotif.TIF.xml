@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gsc - iso 19139 (1).xslt"?>
+<gmd:MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd ../schemas/iso19139fra/gmd/gmd.xsd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:map="urn:brgm:mapping" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco">
+	<geosoft xmlns="http://www.geosoft.com/schema/geo">
+		<dataset version="1">
+			<lineage>
+				<process name="MapExport" user="Oneschuk, Douglas (he, him | il, lui)" version="Version 2022.2 (20221207.28)" date="2023-03-10" time="10:07:32">
+					<parameter name="MAPEXPORT.ACTIVEVIEW" value="Data" type="string"/>
+					<parameter name="MAPEXPORT.BITS" value="24" type="integer"/>
+					<parameter name="MAPEXPORT.CELLSIZE" value="500" type="double"/>
+					<parameter name="MAPEXPORT.DITHER" value="FloydsteinDithering" type="string"/>
+					<parameter name="MAPEXPORT.FORMAT" value="GeoTIFF (*.tif)" type="string"/>
+					<parameter name="MAPEXPORT.MAXX" value="811.45" type="double"/>
+					<parameter name="MAPEXPORT.MAXY" value="639.95" type="double"/>
+					<parameter name="MAPEXPORT.MINX" value="39.95" type="double"/>
+					<parameter name="MAPEXPORT.MINY" value="49.95" type="double"/>
+					<parameter name="MAPEXPORT.NAME" value=".\Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert_Geotif.tif" type="string"/>
+					<parameter name="MAPEXPORT.OPTIONS" value="" type="string"/>
+					<parameter name="MAPEXPORT.OUTPUT" value="FILE" type="string"/>
+					<parameter name="MAPEXPORT.SELECTEDGROUP" value="AGG_Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert" type="string"/>
+					<parameter name="MAPEXPORT.SIZEX" value="15430" type="integer"/>
+					<parameter name="MAPEXPORT.SIZEY" value="11800" type="integer"/>
+					<parameter name="MAPEXPORT.VIEWS" value="2" type="integer"/>
+					<source name="c:\current_work\1kmgridofcanada\Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert.grd" type="GRID">
+						<lineage>
+							<process name="gridrepj.gx" displaystring="Reproject grids" user="Oneschuk, Douglas (he, him | il, lui)" version="Version 2022.2 (20221207.28)" date="2023-03-10" time="09:38:18">
+								<parameter name="GRIDREPJ::NEWCELL" value="1000" type="double"/>
+								<parameter name="GRIDREPJ::NEWGRID" value=".\Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert.grd(GRD)" type="string"/>
+								<parameter name="GRIDREPJ::NEWIPJ_XML" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;LAMBERT_CONFORMAL_CONIC_2SP&quot; name=&quot;NAD83 / Canada Atlas Lambert&quot; wellknown_epsg=&quot;3978&quot; projection=&quot;Canada Atlas Lambert&quot; ellipsoid=&quot;GRS 1980&quot; datum=&quot;NAD83&quot; datumtrf=&quot;NAD83 to WGS 84 (1)&quot; datumtrf_epsg=&quot;1188&quot; datumtrf_description=&quot;[NAD83] (4m) North America - Canada and USA (CONUS, Alaska mainland)&quot; radius=&quot;6378137&quot; eccentricity=&quot;0.081819191042815792&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;0&quot; y=&quot;0&quot; z=&quot;0&quot;/&gt;&#xA;	&lt;parameters false_east=&quot;0&quot; false_north=&quot;0&quot; lat_origin=&quot;49&quot; lon_origin=&quot;-95&quot; parallel1=&quot;49&quot; parallel2=&quot;77&quot;/&gt;&#xA;	&lt;units name=&quot;m&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;" type="string"/>
+								<parameter name="GRIDREPJ::OLDGRID" value=".\Canada_1km_MAG_June12_2020_Final.grd(GRD)" type="string"/>
+								<parameter name="GRIDREPJ::OLDIPJ_XML" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;LAMBERT_CONFORMAL_CONIC_2SP&quot; name=&quot;NAD83 / *Lambert (CM-MC=-92 SPAR=49 NPAR=77 LAT0=63)&quot; projection=&quot;*Lambert (CM-MC=-92 SPAR=49 NPAR=77 LAT0=63)&quot; ellipsoid=&quot;GRS 1980&quot; datum=&quot;NAD83&quot; datumtrf=&quot;NAD83 to WGS 84 (1)&quot; datumtrf_description=&quot;[NAD83] (4m) North America - Canada and USA (CONUS, Alaska mainland)&quot; radius=&quot;6378137&quot; eccentricity=&quot;0.08181919104&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;0&quot; y=&quot;0&quot; z=&quot;0&quot;/&gt;&#xA;	&lt;parameters false_east=&quot;0&quot; false_north=&quot;0&quot; lat_origin=&quot;63&quot; lon_origin=&quot;-92&quot; parallel1=&quot;49&quot; parallel2=&quot;77&quot;/&gt;&#xA;	&lt;units name=&quot;m&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;" type="string"/>
+								<parameter name="IPJSET::PROJECTION" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;LAMBERT_CONFORMAL_CONIC_2SP&quot; name=&quot;NAD83 / Canada Atlas Lambert&quot; wellknown_epsg=&quot;3978&quot; projection=&quot;Canada Atlas Lambert&quot; ellipsoid=&quot;GRS 1980&quot; datum=&quot;NAD83&quot; datumtrf=&quot;NAD83 to WGS 84 (1)&quot; datumtrf_epsg=&quot;1188&quot; datumtrf_description=&quot;[NAD83] (4m) North America - Canada and USA (CONUS, Alaska mainland)&quot; radius=&quot;6378137&quot; eccentricity=&quot;0.081819191042815792&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;0&quot; y=&quot;0&quot; z=&quot;0&quot;/&gt;&#xA;	&lt;parameters false_east=&quot;0&quot; false_north=&quot;0&quot; lat_origin=&quot;49&quot; lon_origin=&quot;-95&quot; parallel1=&quot;49&quot; parallel2=&quot;77&quot;/&gt;&#xA;	&lt;units name=&quot;m&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;" type="string"/>
+								<source name="c:\current_work\1kmgridofcanada\Canada_1km_MAG_June12_2020_Final.grd" type="GRID"/>
+							</process>
+						</lineage>
+					</source>
+					<source name="c:\current_work\1kmgridofcanada\Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert__s.grd" type="GRID"/>
+				</process>
+			</lineage>
+			<title>Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert_Geotif</title>
+			<file_format>TIF</file_format>
+			<project_name>c:\current_work\1kmgridofcanada\1kmgridofcanada.gpf</project_name>
+			<data_created_by>Oneschuk, Douglas (he, him | il, lui)</data_created_by>
+			<data_creation_date>2023-03-10</data_creation_date>
+			<metadata_created_by>Oneschuk, Douglas (he, him | il, lui)</metadata_created_by>
+			<metadata_creation_date>2023-03-10</metadata_creation_date>
+			<georeference>
+				<dataextents>
+					<extent2d minx="-458750" miny="53250" maxx="1401250" maxy="2783250"/>
+				</dataextents>
+				<projection type="LAMBERT_CONFORMAL_CONIC_2SP" name="NAD83 / Canada Atlas Lambert" wellknown_epsg="3978" projection="Canada Atlas Lambert" ellipsoid="GRS 1980" datum="NAD83" datumtrf="NAD83 to WGS 84 (1)" datumtrf_epsg="1188" datumtrf_description="[NAD83] (4m) North America - Canada and USA (CONUS, Alaska mainland)" radius="6378137" eccentricity="0.081819191042815792">
+					<shift x="0" y="0" z="0"/>
+					<parameters false_east="0" false_north="0" lat_origin="49" lon_origin="-95" parallel1="49" parallel2="77"/>
+					<units name="m" unit_scale="1"/>
+				</projection>
+			</georeference>
+		</dataset>
+	</geosoft>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:processStep xlink:type="Geosoft Process" xlink:title="MapExport">
+						<gmd:LI_ProcessStep>
+							<gmd:dateTime>
+								<gco:DateTime>2023-03-10T10:07:32</gco:DateTime>
+							</gmd:dateTime>
+							<gmd:processor>
+								<gmd:CI_ResponsibleParty>
+									<gmd:individualName>
+										<gco:CharacterString>Oneschuk, Douglas (he, him | il, lui)</gco:CharacterString>
+									</gmd:individualName>
+								</gmd:CI_ResponsibleParty>
+							</gmd:processor>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.ACTIVEVIEW" xlink:title="Data">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.BITS" xlink:title="24">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.CELLSIZE" xlink:title="500">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.DITHER" xlink:title="FloydsteinDithering">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.FORMAT" xlink:title="GeoTIFF (*.tif)">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.MAXX" xlink:title="811.45">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.MAXY" xlink:title="639.95">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.MINX" xlink:title="39.95">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.MINY" xlink:title="49.95">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.NAME" xlink:title=".\Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert_Geotif.tif">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.OPTIONS" xlink:title="">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.OUTPUT" xlink:title="FILE">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.SELECTEDGROUP" xlink:title="AGG_Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.SIZEX" xlink:title="15430">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.SIZEY" xlink:title="11800">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="MAPEXPORT.VIEWS" xlink:title="2">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Source" xlink:role="GRID" xlink:title="c:\current_work\1kmgridofcanada\Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert.grd">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Source" xlink:role="GRID" xlink:title="c:\current_work\1kmgridofcanada\Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert__s.grd">
+								<gmd:LI_Source/>
+							</gmd:source>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Canada_1km_MAG_June12_2020_Final_CanadaAtlasLambert_Geotif</gco:CharacterString>
+					</gmd:title>
+					<gmd:collectiveTitle>
+						<gco:CharacterString>c:\current_work\1kmgridofcanada\1kmgridofcanada.gpf</gco:CharacterString>
+					</gmd:collectiveTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2023-3-10</gco:Date>
+							</gmd:date>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>TIF</gco:CharacterString>
+					</gmd:name>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>Oneschuk, Douglas (he, him | il, lui)</gco:CharacterString>
+					</gmd:individualName>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-110.29444583333235</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>-54.111696855832747</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>47.606341422112585</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>74.538259603824372</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>Oneschuk, Douglas (he, him | il, lui)</gco:CharacterString>
+			</gmd:individualName>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2023-3-10</gco:Date>
+	</gmd:dateStamp>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:codeSpace>
+						<gco:CharacterString>ESRI</gco:CharacterString>
+					</gmd:codeSpace>
+					<gmd:code>
+						<gco:CharacterString>PROJCS["NAD_1983_Canada_Atlas_Lambert",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-95.0],PARAMETER["Standard_Parallel_1",49.0],PARAMETER["Standard_Parallel_2",77.0],PARAMETER["Latitude_Of_Origin",49.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3978]]</gco:CharacterString>
+					</gmd:code>
+					<gmd:version>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:version>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+</gmd:MD_Metadata>
